@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*HEADER*/
+#header-nav {
+	background-color: #e5e5e1;
+	border-radius: 0;
+	border: 2px solid black;
+	/*margin-bottom: 0;*/
+}
+.navbar-default > div {
+	padding-left: 20px;
+	margin-left: 20px;
+}
+.navbar-brand h1 { /* FOOD, LCC */
+  	font-family: 'Lora', serif;
+  	color: black;
+  	font-size: 1.7em;
+  	font-weight: bold;
+   	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: unset;
+}
+/*END HEADER*/
+
+/*TITLE*/
+h2 {
+	font-family: 'Lora', serif;
+  	color: black;
+  	font-size: 2em;
+  	font-weight: bold;
+   	margin-top: 0;
+  	margin-bottom: 0;
+  	text-align: center;
+}
+/*END TITLE*/
+
+/*MAIN CONTENT*/
+#content {
+	background-color: #e5e5e1;
+	margin: 20px;
+}
+
+h3 {
+	font-family: 'Lora', serif;
+  	color: black;
+  	font-size: 1.5em;
+  	font-weight: bold;
+   	margin-top: 0;
+  	margin-bottom: 0;
+  	text-align: center;
+}
+p {
+	padding: 20px;
+}
