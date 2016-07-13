@@ -15,10 +15,6 @@ body {
 	border: 2px solid black;
 	/*margin-bottom: 0;*/
 }
-.navbar-default > div {
-	padding-left: 20px;
-	margin-left: 20px;
-}
 .navbar-brand h1 { /* FOOD, LCC */
   	font-family: 'Lora', serif;
   	color: black;
@@ -27,6 +23,41 @@ body {
    	margin-top: 0;
   	margin-bottom: 0;
   	line-height: unset;
+}
+.container {
+	padding: 0;
+	margin: 0 20px 0;
+}
+#collapsable-nav {
+	padding: 0;
+	margin: 0 -20px 0;
+
+}
+#nav-list {
+  margin: 0;
+}
+#nav-list li {
+  color: black;
+  text-align: center;
+  background-color: white;
+  font-size: 1.5em;
+}
+#nav-list li:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar: hover {
+	background-color: green;
+}
+#collapsable-nav ul hr {
+	width: 100%;
+	border-top: 2px solid black;
+	margin: 0 auto 0;
 }
 /*END HEADER*/
 
